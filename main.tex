@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+%https://www.overleaf.com/learn/latex/Paragraph_formatting#Paragraph_spacing
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+ 
+\setlength{\parindent}{1em}
+\setlength{\parskip}{1em}
+
+
+\title{Scoping Exercise II}
+\author{Lauren Franks}
+\begin{document}
+
+\maketitle
+
+
+\section{Research Area}
+Big data is a digital phenomenon that enables information to be collected, stored as data, shared, analysed and acted upon at an ever-increasing speed and scale. Combined with the expanse of internet-enabled sensors both in our environments and worn on our person, human activity is being increasingly transformed into data and metadata, which ultimately serves a variety of purposes for many different actors. This fundamentally transforms our understanding of privacy, and muddies the distinction between the public and private spheres. With Big Data comes dataveillance, the continuous monitoring of people via (meta)data tracking. Information gathered about us via our online interactions and the Internet of Things is being collected by organisations often without our knowledge or consent, and is used and shared in undesirable and unexpected ways. Dataveillance often draws an apathetic response from surveilled subjects as there is a general sense of powerlessness to enact change. The rewards of submitting to one’s data being collected and exploited are often significant, such as being able to access social media platforms.
+
+The ubiquity of dataveillance has made it virtually impossible to understand the knock-on effects of our actions or inactions. The average person does not have sufficient time and energy to devote to understanding the complexities of how, when, why and by whom data is collected and used. It is often in the interest of data brokers for this to remain opaque, and transparency usually only arises after legislative intervention, such as the EU’s General Data Protection Regulation (GDPR). However, even with such interventions the processes of dataveillance remain shrouded in mystery for most citizens, and there are few informative narratives to aid understanding. 
+
+\section{Goal}
+The goal of this project is to produce insights that an individual wouldn't expect from their data, as part of my broader thesis goal to develop social awareness and understanding of dataveillance processes and effects. 
+I will do this by:\\
+% \begin{enumerate}
+%     \item 
+% \end{enumerate}
+a)	writing an accessible narrative that explains what, when, how and where my own data is collected, stored and used and by what actors.\\
+b)	producing an accompanying visualisation of the above processes.\\
+c)	designing and presenting the above as an interactive article, in which readers can input their own data to replicate my visualisations.
+
+
+\section{Problem}
+As far as I am aware, there is no singular software solution able to map an individual’s total data output. In order to tell such a story, I will need to investigate and be able to understand my own data output, identify appropriate visualisation software, identify a way to explain how to replicate my visualisations. 
+
+\section{Decomposition} 
+1)	Identify points of data collection I interact with on a regular basis, for example:\\
+-	Google services (search, maps, voice assistant)\\
+-	Computer operating system (Windows) \\
+-	Social media (Instagram, Whatsapp, Kik, Tumblr)\\
+-	Email (outlook, gmail, yahoo mail)\\
+-	Phone apps (Spotify, The Guardian, banking app, period tracker, Shazam)\\
+-	Phone text messaging/voice call\\
+-	Internet of Things (Garmin wearable fitness tracker, google home speaker)\\
+-	Opal card
+
+2)	Investigate relevant literature alongside data collection/retention policies provided by above services to identify what, when, how and where data is collected, stored and used and by what actors.
+
+3)	Find appropriate way to visualise data.
+
+\section{Algorithm design}
+Using Opal data as an example:\\
+1) Provide instruction of how to view/download opal data\\
+2) Use data scraping tool to extract data in usable format\\
+3) Graph is produced that shows the information and who has access, includes metadata commentary about why this data is accesses (e.g. according to opal the government uses your location data to better design public transport based off supply demand, but they may also access this for other reasons, etc) 
+
+\section{Pattern Recognition}
+\begin{enumerate}
+    \item Data extraction
+    \item Common data formats
+    \item Data visualisation 
+\end{enumerate}
+
+\section{Possible software to use}
+- Jupyter notebooks\\
+- SpatiaLite 4.2.0 
+
+
+
+
+
+\end{document}
